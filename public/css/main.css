@@ -1,0 +1,87 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html {
+  position: relative;   /* sticky footer setup */
+  min-height: 100%;  
+}
+
+body {
+  margin-bottom: 60px;  /* footer height */
+}
+
+#logo {
+    font-family: Pacifico;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(30,30,30);
+    text-decoration: none;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    transition: 0.2s all;
+}
+
+#logo:hover {
+    color: #ff5323;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #511606;
+}
+
+#alert-box {
+    box-shadow: 1px 1px 2px grey;
+}
+
+#alert-box p {
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+/* footer */
+footer {
+    position: absolute;
+    height: 60px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none; 
+    padding-left: 0px;
+}
+
+footer ul li { 
+    display: inline-block;
+    color: rgb(50,50,50); 
+    padding: 5px 10px; 
+}
+
+.footer-item {
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.bdr { 
+    border-right: 2px solid rgb(80,80,80); 
+}
+
+#my-line {
+    margin: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
